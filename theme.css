@@ -1,6 +1,6 @@
 h1 {
   text-align: center;
-  color: blue;
+  color: black;
   font-size: 55px;
 }
 header, body {
@@ -10,6 +10,19 @@ header, body {
 header {
   background-color: yellow;
   border: 5px solid red;
+
+}
+
+h1{
+	font-family: Arial;
+	text-shadow: 2px 2px 2px grey;
+	font-weight: normal;
+		
+}
+
+ .testdiv {
+	background-color: #fff;
+	box-shadow: 10px  10px 9px 3px teal;
 
 }
 
