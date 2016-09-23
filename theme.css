@@ -3,20 +3,27 @@ h1 {
   color: black;
   font-size: 55px;
 }
-header, body {
+header, body, h1, h2 {
   margin: 0px;
 }
 
 header {
-  background-color: yellow;
-  border: 5px solid red;
+  background: url("images/CloserLeaves.png");
+  border-bottom: 5px solid black;
+  
+  
 
 }
 
-h1{
-	font-family: Arial;
-	text-shadow: 2px 2px 2px grey;
-	font-weight: normal;
+h1, h2{
+	font-family: Georgia;
+	text-shadow: 2px 2px 2px black;
+	font-weight: extra bold;
+	font-size: 120px;
+	/*padding: 50px 0px 20px 0px;*/
+	color: #fbfbf2; 
+	float: none;
+	
 		
 }
 
