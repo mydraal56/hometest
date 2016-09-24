@@ -19,4 +19,21 @@ function openCity(evt, cityName) {
     // Show the current tab, and add an "active" class to the link that opened the tab
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
+    
+   
+}
+
+function ellieClick() {  
+	
+	debugger;
+	var popUp = document.getElementById('myModal');
+	//alert('we are in ellieClick');
+	
+	popUp.style.display = "flex";
+	
+};
+
+function closeModal() {
+	var popUp = document.getElementById('myModal');
+	popUp.style.display = "none";
 }
