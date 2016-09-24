@@ -5,28 +5,31 @@
 </head>
 <header>
   <h1>
-  	<h2 style="width: 60%; float: left; text-align: right; padding-top: 80px">Janelle Dunn</h2>
+  	<h2 style="width: 60%; float: left; text-align: right; padding-top: 80px;">
+  	<span style="background-color:rgba(0, 0, 0, 0.5); border: 1px solid rgba(0, 0, 0, 0.5) ; border-radius: 25px;">Janelle Dunn</span>
+  	</h2>
  	<img src="images/PlainBaby.png" height="310px" width="180px" style="padding-left: 200px;">
    </h1>
 </header>
-<body>
-	<div style="width: 50%;">
+<body style="height: 500px;">
+	<div style="width: 100%;">
   		<ul class="tab">
-    		<li><a href="#" onclick="openCity(event, 'London')" class="tablinks">London</a></li>
-    		<li><a href="#" onclick="openCity(event, 'Paris')" class="tablinks">Paris</a></li>
+    		<li><a href="#" onclick="openCity(event, 'Baby1')" class="tablinks">Baby</a></li>
+    		<li><a href="#" onclick="openCity(event, 'Baby2')" class="tablinks">Cool Baby</a></li>
    			<li><a href="#" onclick="openCity(event, 'Tokyo')" class="tablinks">Tokyo</a></li>
     		<li>Test</li>
   		</ul>
 
-  		<div id="London" class="tabcontent">
-  			<h3>London</h3>
-  			<p>London is the capital city of England.</p>
-  			<img src="images/baby6.jpg" alt="baby6" height="210px" width="220px" style="margin-left: 40px;">
+  		<div id="Baby1" class="tabcontent">
+  			<h3>Baby</h3>
+  			<p>This is the picture of a cute little baby</p>
+  			<img src="images/baby6.jpg" alt="baby6" height="210px" width="260px" style="margin-left: 40px;">
 		</div>
 
-		<div id="Paris" class="tabcontent">
- 			<h3>Paris</h3>
-  			<p>Paris is the capital of France.</p>
+		<div id="Baby2" class="tabcontent">
+ 			<h3>Big Baby</h3>
+  			<p>Getting bigger and ready to jam</p>
+  			<img src="images/baby3.jpg" alt="baby3" height="210px" width="260px" class="sidePic">
 		</div>
 
 		<div id="Tokyo" class="tabcontent">
@@ -34,10 +37,15 @@
   			<p>Tokyo is the capital of Japan.</p>
 		</div>
   	</div>
-  	<div>
-  		<p>this is the p in the body</p>
-  		<div class="testdiv" style="width: 80%; align: center; padding-left: 20px; background-color: yellow;">
+  	<div style="margin: 25px 25px;">
+  		<p style=" color: white;background-color: rgba(0, 0, 0, 0.5); box-shadow: 5px  5px 2px 3px rgba(0, 0, 0, 0.5); width: 30%">this is the p in the body</p>
+  		<div class="testdiv" style="width: 30%; align: center; padding-left: 20px; background-color: yellow;">
   		This is a test box good sir!
+  		
   	</div>
+	</div>
+	<div style="margin: 25px 25px;">
+		<span>Please enter your comments below</span><br>
+		<textarea rows="8" cols="100"></textarea>
 	</div>
 </body>

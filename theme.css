@@ -5,6 +5,13 @@ h1 {
 }
 header, body, h1, h2 {
   margin: 0px;
+  font-family: Georgia;
+}
+
+body {
+	background: url("images/SparseLeaves.png");
+	background-size: contain;
+	/*background-repeat: repeat-x;*/
 }
 
 header {
@@ -16,7 +23,7 @@ header {
 }
 
 h1, h2{
-	font-family: Georgia;
+	
 	text-shadow: 2px 2px 2px black;
 	font-weight: extra bold;
 	font-size: 120px;
@@ -27,10 +34,22 @@ h1, h2{
 		
 }
 
+textarea {
+		box-shadow: 5px  5px 2px 3px rgba(0, 0, 0, 0.5) ;
+}
+
  .testdiv {
 	background-color: #fff;
-	box-shadow: 10px  10px 9px 3px teal;
+	box-shadow: 5px  5px 2px 3px rgba(0, 0, 0, 0.5) ;
 
+}
+
+.sidePic{
+	margin: 0px 0px 25px 200px;  
+	transform: rotate(90deg); 
+	-webkit-transform: rotate(90deg);
+	
+	/*float: right;*/
 }
 
 ul.tab {
@@ -40,6 +59,7 @@ ul.tab {
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
+    width: 100%;
 }
 
 /* Float the list items side by side */
@@ -65,7 +85,9 @@ ul.tab li a:focus, .active {background-color: #ccc;}
 /* Style the tab content */
 .tabcontent {
     display: none;
+    background-color: white;
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
+    width: 30%
 }
